@@ -4,7 +4,7 @@ function SidebarRow({ Icon, title, selected }) {
     return (
         <div className={`sidebarRow ${selected && "selected"}`}>
             <Icon className="sidebarRow__icon" />
-            <h2 className="sidebarRow__title">{title}</h2>
+            <h3 className="sidebarRow__title">{title}</h3>
         </div>
     )
 }
